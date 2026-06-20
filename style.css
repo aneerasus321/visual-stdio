@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+background: linear-gradient(135deg, #fde2f3, #e0c3fc);
+color: #4a235a; /* soft purple text instead of black */
+}
+
+
+/* Header */
+header {
+background: linear-gradient(to right, #ff6f91, #845ec2);
+color: #ffffff;
+padding: 30px 20px;
+text-align: center;
+}
+
+
+header h1 {
+margin-bottom: 10px;
+font-size: 38px;
+}
+
+
+header p {
+font-size: 18px;
+color: #ffe6f0;
+}
+
+
+/* Navigation Bar */
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+background-color: #ffffff;
+padding: 12px 0;
+margin: 0;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+nav ul li {
+margin: 0 20px;
+}
+
+
+nav ul li a {
+text-decoration: none;
+color: #845ec2;
+font-weight: 600;
+font-size: 16px;
+}
+
+
+nav ul li a:hover {
+color: #ff6f91;
+border-bottom: 2px solid #ff6f91;
+padding-bottom: 3px;
+}
+/* Main Content */
+.content {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.content h2 {
+    color: #ff6f91;
+    margin-bottom: 15px;
+}
+
+.content p, .content li {
+    color: #5e2a84;
+    line-height: 1.7;
+}
+
+/* Images */
+.page-img {
+    width: 100%;
+    border-radius: 14px;
+    margin: 20px 0;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #845ec2;
+    color: #ffffff;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #e0c3fc;
+}
+
+table td {
+    color: #4a235a;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    color: #845ec2;
+    font-weight: 600;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #d1c4e9;
+}
+
+button {
+    background: linear-gradient(to right, #ff6f91, #845ec2);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background-color: #f8bbd0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #4a235a;
+    font-weight: 500;
+}
